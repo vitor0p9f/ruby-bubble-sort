@@ -2,5 +2,11 @@
 
 def read_file_numbers(file_name)
   file = File.open(file_name)
-  file.read.chomp.split(' ').map(&:to_i)
+
+  file
+    .read
+    .scan(/[0-9,\s]/)
+    .join
+    .split(' ')
+    .map(&:to_i)
 end
