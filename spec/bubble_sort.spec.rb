@@ -24,5 +24,11 @@ RSpec.describe 'Bubble sort project' do
 
       expect(content).to eq [10, -450, 987]
     end
+
+    it 'should read numbers of a file with multiple lines that contains numbers, letters and symbols' do
+      content = read_file_numbers('test-multiple-lines-not-only-numbers.txt')
+
+      expect(content).to eq [-938, 8493, 65, 14]
+    end
   end
 end
