@@ -31,4 +31,12 @@ RSpec.describe 'Bubble sort project' do
       expect(content).to eq [-938, 8493, 65, 14]
     end
   end
+
+  context 'Bubble sort function' do
+    it 'should sort numbers' do
+      sorted_numbers = bubble_sort([0, 6, 8, 5, -1, 2])
+
+      expect(sorted_numbers).to eq [-1, 0, 2, 5, 6, 8]
+    end
+  end
 end
