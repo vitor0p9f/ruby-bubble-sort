@@ -57,3 +57,6 @@ build-iPhoneSimulator/
 
 # Test files
 test-one-line-only-numbers.txt
+test-one-line-not-only-numbers.txt
+test-multiple-lines-only-numbers.txt
+test-multiple-lines-not-only-numbers.txt
