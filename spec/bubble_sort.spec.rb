@@ -38,5 +38,25 @@ RSpec.describe 'Bubble sort project' do
 
       expect(sorted_numbers).to eq [-1, 0, 2, 5, 6, 8]
     end
+
+    it 'should sort the numbers taken from a text file.' do
+      content = read_file_numbers('test-one-line-not-only-numbers.txt')
+
+      result = bubble_sort(content)
+
+      expect(result).to eq [0, 6, 8, 9]
+
+      content = read_file_numbers('test-multiple-lines-only-numbers.txt')
+
+      result = bubble_sort(content)
+
+      expect(result).to eq [-450, 10, 987]
+
+      content = read_file_numbers('test-multiple-lines-not-only-numbers.txt')
+
+      result = bubble_sort(content)
+
+      expect(result).to eq [-938, 14, 65, 8493]
+    end
   end
 end
