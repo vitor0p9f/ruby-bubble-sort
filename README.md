@@ -53,7 +53,7 @@ Exemplos de como o algoritmo leria e limparia o conteúdo de um arquivo:
 -sdf87fs69 -> 8769
 dsf-9sf8sf sf76f9 -> -98 769
 
-### 3. Executando o arquivo
+### 3. Executando o projeto
 
 Para conseguir executar o arquivo, certifique-se de:
 
@@ -69,5 +69,5 @@ bundle install
 #### 2. Execute o projeto rodando o comando:
 
 ```bash
-ruby stock_picker.rb nome_arquivo_entrada.txt nome_arquivo_saida.txt
+ruby bubble_sort.rb nome_arquivo_entrada.txt nome_arquivo_saida.txt
 ```
