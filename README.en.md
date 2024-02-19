@@ -19,6 +19,10 @@
   received via the command line.
 </p>
 
+## :movie_camera: Project demonstration
+
+https://github.com/vitor0p9f/ruby-bubble-sort/assets/153991573/2080720e-b089-4815-b293-43992f6c08c9
+
 ## :gem: Used Gems
 
 * Rspec
