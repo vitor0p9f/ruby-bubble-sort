@@ -16,6 +16,10 @@
   Este projeto foi desenvolvido com o objetivo de aprender mais sobre a linguagem de programação Ruby e seus conceitos, por meio da aplicação dos mesmos na construção de um programa que executa o algoritmo de ordenação <i>bubble sort</i>. O programa lê dois parâmetros da linha de comando, sendo o primeiro o nome do arquivo onde estão os dados de entrada, então limpa o conteúdo do arquivo de modo a deixar apenas números, executa o algoritmo de ordenação e escreve o resultado em um segundo arquivo, cujo nome é o segundo parâmetro recebido via linha de comando.
 </p>
 
+## :movie_camera: Demonstração do projeto
+
+https://github.com/vitor0p9f/ruby-bubble-sort/assets/153991573/2080720e-b089-4815-b293-43992f6c08c9
+
 ## :gem: Gems utilizadas
 
 * Rspec
